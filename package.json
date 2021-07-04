@@ -1,22 +1,28 @@
 {
-  "name": "mongoose_skeleton",
+  "name": "fitness-tracker",
   "version": "1.0.0",
-  "description": "",
+  "description": "Link to the deployed application can be tested here on Heroku: [Fitness Tracker App](https://fitness-tracker-lh.herokuapp.com/) and the project repository can be viewed here: [Fitness Tracker Repo](https://github.com/leonhsu95/fitness-tracker).",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "watch": "nodemon server.js",
-    "seed": "node seeders/seed.js"
+    "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonhsu95/fitness-tracker.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leonhsu95/fitness-tracker/issues"
+  },
+  "homepage": "https://github.com/leonhsu95/fitness-tracker#readme",
   "dependencies": {
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
-    "form-data": "^4.0.0",
-    "mongoose": "^5.13.0",
-    "morgan": "^1.10.0",
-    "nodemon": "^2.0.7"
+    "install": "^0.13.0",
+    "mongoose": "^5.13.2",
+    "morgan": "^1.10.0"
   }
 }
