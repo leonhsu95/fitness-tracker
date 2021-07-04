@@ -47,5 +47,3 @@ router.get("/api/workouts", (req, res) => {
       res.json(err);
     });
 });
-
-module.exports = router;
